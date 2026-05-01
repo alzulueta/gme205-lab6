@@ -37,5 +37,6 @@ print("Does Building intersect Rooftop?", building.intersects(rooftop))
 
 print("\nRELATIONSHIPS")
 print("Building", building.building, "has a rooftop:", building.rooftop is not None)
+print("Rooftop belongs to Building:", building.rooftop == rooftop)  
 print("Rooftop properties were derived using TerrainModel")
 print("TerrainModel inherits from Rooftop:", isinstance(terrain_model, Rooftop))
